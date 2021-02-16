@@ -20,8 +20,10 @@ tcfilename = ".\\" + path + "\\" + problem + ".tc"
 print("Creating .tc file")
 if os.path.exists(tcfilename):
     deletecase = input("A test case file already exists. Do you wish to remove it? [y/N] ")
-    if deletecase.lower() == "y":
-        os.remove(tcfilename)
+    if deletecase.strip().lower() == "n":
+        print("Test file creation canceled.")
+        sys.exit(1)
+    os.remove(tcfilename)
 f = open(tcfilename, "w")
 f.write(str(int(len(testdata)/2)) + "\n" + tl + "\n")
 

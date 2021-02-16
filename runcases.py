@@ -111,4 +111,5 @@ i = 1
 for code in status:
     print("Test Case " + str(i) + ":       " + code)
     i += 1
+print("\nProblem link: https://dmoj.ca/problem/" + filename)
 
