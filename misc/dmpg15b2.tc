@@ -1,0 +1,12 @@
+2
+2.0
+2 3 3
+3 3 3
+begin results
+Y
+end case
+2 3 4
+4 2 2
+begin results
+N
+end case

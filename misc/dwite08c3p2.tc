@@ -1,0 +1,14 @@
+1
+2.0
+DWITE question number two: Wordcount++
+Note how "two:" does not count.
+For simplicity - "don't" is two words, split by apostrophe.
+
+That was a blank line above.
+begin results
+4
+3
+4
+0
+4
+end case

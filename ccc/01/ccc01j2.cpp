@@ -24,19 +24,28 @@ char _;
 
 using namespace std;
 
-bool isRotatable(int n) {
+int x,n,m;
 
-
-    return true;
+bool test(int n) {
+    return (x*n)%m == 1;
 }
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int from, to;
-    cin >> from >>  to;
+    cin >> x >> m;
+    n = 1;
 
+    while (!test(n) && n < m) {
+        n++;
+    }
+
+    if (n == m) {
+        cout << "No such integer exists."; nl;
+    } else {
+        cout << n; nl;
+    }
 
 
     return 0;

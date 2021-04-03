@@ -1,0 +1,20 @@
+3
+1
+1
+0 1000 0
+begin results
+0
+end case
+2
+10 4 3
+20 4 2
+begin results
+20
+end case
+3
+6 8 3
+1 4 1
+14 5 2
+begin results
+43
+end case

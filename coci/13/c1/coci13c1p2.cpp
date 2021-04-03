@@ -24,20 +24,25 @@ char _;
 
 using namespace std;
 
-bool isRotatable(int n) {
-
-
-    return true;
-}
-
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int from, to;
-    cin >> from >>  to;
+    int n,m;
 
+    cin >> n >> m;
 
+    int knife = n, cut = 0;
+
+    while (knife < m*n) {
+        if (knife%m) {
+            cut++;
+        }
+
+        knife += n;
+    }
+
+    cout << cut; nl;
 
     return 0;
 }

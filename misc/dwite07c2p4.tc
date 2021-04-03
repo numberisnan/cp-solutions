@@ -1,0 +1,14 @@
+1
+2.0
+abc
+([{a}b]c)
+)(
+([)]
+{abc]
+begin results
+balanced
+balanced
+not balanced
+not balanced
+not balanced
+end case
