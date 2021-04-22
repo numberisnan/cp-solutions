@@ -1,0 +1,12 @@
+1
+2.0
+5
+A 00
+B 01
+C 10
+D 110
+E 111
+00000101111
+begin results
+AABBE
+end case

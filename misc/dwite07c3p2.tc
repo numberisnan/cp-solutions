@@ -1,0 +1,14 @@
+1
+2.0
+function my_badly_named_function(); //this is a comment
+puts "some string content" //and comments
+go_go("gadget" /* notice extra spaces */); //"for inline comment"
+"nested 'strings'"
+/*just some //comments*/
+begin results
+this is a comment
+some string content and comments
+gadget  notice extra spaces  "for inline comment"
+nested 'strings'
+just some //comments
+end case

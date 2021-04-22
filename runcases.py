@@ -21,6 +21,7 @@ elif filetype == "py":
     print("Type: Python")
 print()
 
+
 class Case:
     def __init__(self, data, result):
         self.data = data
@@ -106,7 +107,7 @@ for case in testcases:
 
     tc += 1
 
-print("\nStatuses--------------")
+print("Statuses--------------")
 i = 1
 for code in status:
     print("Test Case " + str(i) + ":       " + code)

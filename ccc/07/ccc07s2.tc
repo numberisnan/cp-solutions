@@ -1,0 +1,19 @@
+1
+2.0
+3
+1 2 3
+2 3 4
+3 4 5
+5
+1 1 1
+2 2 2
+4 3 2
+4 3 3
+4 4 4
+begin results
+6
+24
+24
+60
+Item does not fit.
+end case

@@ -1,0 +1,26 @@
+3
+1.0
+10 3
+8 4
+3 8
+4 2
+3 2
+begin results
+yes
+end case
+10 3
+3 8
+2 8
+3 4
+3 2
+begin results
+unknown
+end case
+Case #1:    AC  [0.500s,    8.79 MB]
+Case #2:    AC  [0.900s,    8.74 MB]
+Case #3:    AC  [0.600s,    8.77 MB]
+Case #4:    AC  [0.700s,    8.73 MB]
+Case #5:    AC  [0.800s,    8.77 MB]
+begin results
+Resources: 3.500s, 8.79 MB
+end case
