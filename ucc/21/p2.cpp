@@ -2,6 +2,12 @@
 #pragma GCC optimize("Ofast")
 
 #include <bits/stdc++.h>
+#include <vector>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
+
 
 // From https://dmoj.ca/tips/
 #define scan(x) do{while((x=getchar())<'0'); for(x-='0'; '0'<=(_=getchar()); x=(x<<3)+(x<<1)+_-'0');}while(0)
@@ -17,22 +23,10 @@ char _;
 #define INF(type) numeric_limits<type>::max()
 
 using namespace std;
-int n, k;
-int dp[251][251][251] // dp[min element][sum needed][num elements needed]
-
-int count(int m, int s, int num) {
-    if dp[]
-}
 
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
-
-
-    cin >> n >> k;
-
-
 
     return 0;
 }
